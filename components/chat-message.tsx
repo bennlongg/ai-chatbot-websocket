@@ -55,7 +55,6 @@ function stringToColor(str: string): string {
 }
 
 export type FullMessage = {
-  type: 'MESSAGE'
   content: string
   name: string
   id: string
